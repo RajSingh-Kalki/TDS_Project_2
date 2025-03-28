@@ -453,7 +453,7 @@ def manage_github_email_json(params: Dict) -> str:
         repo = 'tds-assignment'
         path = 'email.json'
         branch = 'main'
-        token = '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'    # replace with your GitHub token
+        token = ''    # replace with your GitHub token
         
         # Get email from params
         email = params.get("email", "example@example.com")
